@@ -28,7 +28,7 @@ Generate APP KEY in env.local by running the following in the terminal:
 php artisan key:generate
 ```
 
-Create a file within the database folder called database.sqlite and run the following command to start the migration
+Create a file within the database folder called **database.sqlite** and run the following command to start the migration
 
 ```
 php artisan migrate
