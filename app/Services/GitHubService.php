@@ -10,7 +10,7 @@ class GitHubService
     public function __construct()
     {
         $this->base_url = 'https://api.github.com';
-        $this->token = env('GITHUB_PERSONAL_TOKEN');
+        $this->token = env('GITHUB_PERSONAL_TOKEN', '');
     }
 
     protected function headers(): array
