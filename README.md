@@ -37,8 +37,8 @@ php artisan migrate
 Run the following in the terminal to refresh the cache configuration
 
 ```
-php artisan config:clear
 php artisan config:cache
+php artisan config:clear
 ```
 
 Run the following in the terminal within the application folder
